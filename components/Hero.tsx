@@ -7,7 +7,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const Hero = () => {
   return (
-    <section className="relative h-screen bg-gradient-to-br from-[#004AAD] to-[#0066CC] overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-to-br from-[#004AAD] to-[#0066CC] overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KPGcgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjEiPgo8Y2lyY2xlIGN4PSIzMCIgY3k9IjMwIiByPSIzIi8+CjwvZz4KPC9nPgo8L3N2Zz4K')]"></div>
