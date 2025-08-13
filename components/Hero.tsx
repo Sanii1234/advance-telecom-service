@@ -4,6 +4,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import { Play, ArrowRight, Zap, Shield, Clock, Award } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import headerPic from "./ui/header-pic.jpeg";
 
 const Hero = () => {
   return (
@@ -98,7 +99,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1562575214-da9fcf59b907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWJlciUyMG9wdGljJTIwY2FibGVzJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NTQ5MDgzNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={headerPic.src}
                 alt="Fiber optic cables and technology"
                 className="w-full h-[600px] object-cover"
               />
