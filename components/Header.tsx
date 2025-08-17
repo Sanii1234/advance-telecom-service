@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { Button } from "./ui/button";
 import { Menu, X, MessageCircle } from "lucide-react";
+import Logo from "./ui/Advane-Telecom-Logo.png"; // keep this
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -19,9 +21,15 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-white text-xl font-bold font-['Inter',sans-serif]">
-              Advance Telecom Services
-            </h1>
+            <a href="#home" className="flex items-center">
+              <Image
+                src={Logo}
+                alt="Advance Telecom Logo"
+                width={250} // adjust size
+                height={100}
+                priority
+              />
+            </a>
           </div>
 
           {/* Desktop Navigation */}

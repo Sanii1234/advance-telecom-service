@@ -22,14 +22,14 @@ const Hero = () => {
             <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 border border-white/20">
               <Zap className="w-4 h-4 text-[#FF7A00] mr-2" />
               <span className="text-sm font-medium">
-                Ultra-Fast Fiber Installation
+                Advance Telecom Service
               </span>
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-              Lightning-Fast
-              <span className="block text-[#FF7A00]">Fiber Optic</span>
-              Solutions
+              {/* Internet */}
+              <span className="block text-[#FF7A00]">Advance Telecom</span>
+              Services
             </h1>
 
             <p className="text-xl text-white/90 leading-relaxed max-w-lg">
